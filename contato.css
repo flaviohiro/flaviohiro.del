@@ -1,0 +1,35 @@
+:root{
+    --fonte-titulo:"Open Sans";
+    --fonte-texto:"Open Sans", "sans-serif";
+    --cor-titulo:hsl(137,80%,64%);
+    --fundo-titulo:rgb(0, 0, 0);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: black;
+    color:white;
+}
+.cabecalho{
+    padding: 1.5% 0% 1.5% 10%;
+    background-image: linear-gradient(var(--fundo-titulo),black);
+    border: solid;
+    border-color: rgb(60, 80, 80);
+}
+.cabecalho__menu {
+    display:flex;
+    gap: 50px;
+}
+.cabecalho__menu__link{
+    font-family: var(--fonte-titulo);
+    font-size: 2.0rem;
+    font-weight: 500;
+    color: var(--cor-titulo);
+    text-decoration: none;}
+
+h1#titulo_somos{
+    text-align: center;
+}
